@@ -1,0 +1,15 @@
+.DS_Store
+
+# project-specs framework install — local assistant tooling, not repo content.
+# Installed via ~/projects/project-specs/setup.sh; re-run it on a fresh clone if wanted.
+.claude/
+specs.config.yaml
+standards/
+pr_description.md
+
+# generated fixture output (run the generator to recreate)
+evals/fixtures/cos-eval/
+
+# The agent journal is personal data about real colleagues. Never commit it.
+cos-journal/
+journal.json
